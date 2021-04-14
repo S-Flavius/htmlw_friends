@@ -1,4 +1,24 @@
-/*TODO */
+/*TODO Make shit work*/
 td {
     text-align: left;
+    border: 1px solid black;
+    background: #F5F4E1;
+}
+
+th {
+    background: aqua;
+    border: 1px solid black;
+    height: 20px;
+
+}
+
+th:nth-child(2):nth-child(3) {
+    background: #8080d7;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 50%;
+    caption-side: bottom;
 }
