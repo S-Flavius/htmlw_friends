@@ -1,5 +1,7 @@
 *{
     font-family: sans-serif;
+    margin:0 auto;
+    color: #bb00ff!important;
 }
 
 body {
@@ -9,5 +11,4 @@ body {
 input , textarea , label , select{
     color: rgb(255, 255, 255);
     background: #222222;
-
 }
