@@ -1,10 +1,95 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-$END$
+<body background="#222222">
+
+    <h1>Bewerten Sie Ihre Lehrerin</h1>
+
+    <form action="ding">
+        <fieldset>
+            <legend>Klasse und Fach</legend>
+            <input id="klasse" type="text">
+            <label for="klasse">Klasse</label> <br> <br>
+            <input id="fach" type="text">
+            <label for="fach">Fach</label> <br> <br>
+        </fieldset>
+
+        <fieldset>
+            <fieldset>
+                <legend>Bewertungen (1: trifft zu; 6: trifft nicht zu)</legend>
+                <input id="nett" type="number" min="1" max="6">
+                <label for="nett">Meine Lehrerin ist nett</label> <br> <br>
+                <input id="puenkt" type="number" min="1" max="6">
+                <label for="puenkt">Meine Lehrerin ist pünktlich</label> <br> <br>
+                <input id="ahnung" type="number" min="1" max="6">
+                <label for="ahnung">Meine Lehrerin hat Ahnung</label> <br>
+            </fieldset>
+            <fieldset>
+                <legend>Action</legend>
+                <input id="save" type="button" value="Speichern">
+                <input id="delete" type="reset" value="Eingaben löschen">
+            </fieldset>
+        </fieldset>
+
+    </form>
+    <h1 >
+        Teilaufgabe "c" 
+    </h1>
+
+    <form action="ding">
+        <fieldset>
+            <legend>Klasse und Fach</legend>
+            <label >
+                <select name="Klasse"  size="1" >
+                    <option>BFS2018IK</option>
+                </select>
+                Klasse
+            </label>
+            <br>
+
+            <label>
+                <select name="fach" size="1">
+                    <option>webentwicklung</option>
+                    <option>Java Jackson</option>                    
+                </select>
+                Fach
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <fieldset>
+                <legend>Bewertungen (1: trifft zu; 6: trifft nicht zu)</legend>
+                <input id="nett" type="checkbox" min="1" max="6">
+                <label for="nett">Meine Lehrerin ist nett</label> <br> <br>
+                <input id="puenkt" type="checkbox" min="1" max="6">
+                <label for="puenkt">Meine Lehrerin ist pünktlich</label> <br> <br>
+                <input id="ahnung" type="checkbox" min="1" max="6">
+                <label for="ahnung">Meine Lehrerin hat Ahnung</label> <br>
+            </fieldset>
+            <fieldset>
+                <legend>persönliches</legend>
+                Schule macht:
+                <input type="radio" name="JA" id="Spaß"> Spass <input type="radio" name="JA" id="Spaß"> keinen Spass
+                <br>
+                
+                Mein Komentar Dazu <br>
+
+                <textarea name="Komentar" id="" cols="30" rows="10"></textarea>
+            </fieldset>
+            <fieldset>
+                <legend>Action</legend>
+                <input id="save" type="button" value="Speichern">
+                <input id="delete" type="reset" value="Eingaben löschen">
+            </fieldset>
+        </fieldset>
+
+    </form>
+
+
+
 </body>
 </html>

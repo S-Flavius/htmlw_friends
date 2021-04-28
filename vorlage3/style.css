@@ -1,0 +1,13 @@
+*{
+    font-family: sans-serif;
+}
+
+body {
+    color: #dddddd;
+    background: #222222;
+}
+input , textarea , label , select{
+    color: rgb(255, 255, 255);
+    background: #222222;
+
+}
