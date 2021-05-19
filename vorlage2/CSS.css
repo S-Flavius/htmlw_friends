@@ -11,15 +11,15 @@ th {
     height: 20px;
 }
 
-
 table {
     border: 1px solid black;
     border-collapse: collapse;
     width: 50%;
     caption-side: bottom;
 }
+
 .ueberschrift{
-    background: green;
+    background: #60b0d7;
 }
 .zweiteuebershrift {
     background: #7abbbe;

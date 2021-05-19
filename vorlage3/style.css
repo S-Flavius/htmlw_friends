@@ -1,0 +1,36 @@
+*{
+    outline: none;
+    font-family: sans-serif;
+    margin:0 auto;
+    color: #ffffff;
+}
+
+body {
+    background: #222222;
+}
+h4 {
+    color: #bb00ff;
+}
+
+input , select{
+    background: #222222;
+
+}
+label{
+    background: #222222;
+    float: left;
+    width: 100px;
+}
+legend{
+    float: left;
+}
+
+textarea {
+    background: #222222;
+    color:#60b0d7;
+}
+
+.a{
+    color:#ff0400 ;
+}
+

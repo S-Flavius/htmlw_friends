@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Klassenparty</title>
+  <link rel="stylesheet" href="Klassenparty.css">
+</head>
+<body>
+  <h1>Anmeldung zur Klassenparty</h1>
+  <p>Eintrtitt 4 Euro pro person Spenden werden abgezogen </p>
+  <table border="">
+    <tr>
+      <td><label for="name">Name</label></td>
+      <td><input type="text" id="name"></td>
+    </tr>
+    <tr>
+      <td><label for="allein">Ich komme</label></td>
+      <td>
+        <input type="checkbox" name="allein" id="allein">
+        <label for="allein">allein</label> <br>
+        <label for="zusätzlich">zusätzlich</label> <input class="length" type="number" id="zusätzlich" value="0"><label for="zusätzlich">Personen</label>
+      </td>
+    </tr>
+    <tr>
+      <td>Ich bringe mit </td>
+      <td>
+        <input type="checkbox" name="Bier" id="Bier"><label for="Bier">Bier</label>
+        <input type="checkbox" name="Limo" id="Limo"><label for="Limo">Limo</label>
+        <input type="checkbox" name="Semmeln" id="Semmeln"><label for="Semmeln">Semmeln</label>
+      </td>
+    </tr>
+    <tr>
+      <td><label for="Spende">ich spende</label></td>
+      <td><input type="number" name="Spende" id="Spende" value="0.00" ></td>
+    </tr>
+    <tr>
+      <td><label for="rest">noch zu bezahlen</label></td>
+      <td><input type="number" name="rest" id="rest" value="0.00" ></td>
+    </tr>
+    <tr>
+      <td>
+        <input type="submit" value="Daten verschicken" name="save" id="save" />
+      </td>
+      <td>
+        <input type="reset" value="Daten löschen" name="reset" id="reset" />
+      </td>
+
+
+
+    </tr>
+  </table>
+
+</body>
+</html>

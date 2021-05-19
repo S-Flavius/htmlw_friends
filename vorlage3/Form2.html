@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Aufgabe4+</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <p></p>
+    <fieldset>
+        <legend>Daten zum Mitarbeiter</legend>
+        <p>
+            <label for="nachname">Nachname</label> <input type="text" name="nachname" id="nachname" value="Nachname" >
+            <label for="vorname">Vorname</label> <input type="text" name="vorname" id="vorname" value="Vorname">
+            <label for="vorgesetzter">
+                Vorgesetzter
+                <select name="vorgesetzter" id="vorgesetzter"  size="3">
+                    <option>Schmid</option>
+                    <option>Huber</option>
+                    <option>Müller</option>
+
+                </select>
+            </label>
+        </p>
+    </fieldset>
+
+    <fieldset>
+        <legend>Handydaten</legend>
+        <label for="grfh">Grund für Handy</label>
+        <textarea name="grfh" id="grfh" cols="50" rows="3">Grundhiereinfügen</textarea>
+        <label for="Wunschgeraet">Wunschgerät
+            <select name="Wunschgerät" id="Wunschgeraet">
+                <option>Iphone</option>
+                <option>Samsung</option>
+                <option value="">Huawei</option>
+            </select>
+        </label>
+    </fieldset>
+    <p>
+    <fieldset>
+        <legend>Daten zu Tarifmasnahmen</legend>
+        <p>
+        <b>Wie viel telefonierst du?</b>
+            <br>
+            <input type="radio" name="n1" id="n1"><label for="n1">50 min</label>
+            <input type="radio" name="n1" id="n2"><label for="n2">100min</label>
+            <input type="radio" name="n1" id="n3"><label for="n3">200min</label>
+        </p>
+        <p>
+            <b>Wie viel SMS´t du?</b>
+            <br>
+            <input type="radio" name="n2" id="s1"><label for="s1">50  mal</label>
+            <input type="radio" name="n2" id="s2"><label for="s2">100 mal</label>
+            <input type="radio" name="n2" id="s3"><label for="s3">200 mal</label>
+        </p>
+        <p>
+            <b>Wie viel nutzt du das internet</b>
+            <br>
+            <input type="radio" name="n3" id="i1"><label for="i1">200 MB</label>
+            <input type="radio" name="n3" id="i2"><label for="i2">500 MB</label>
+            <input type="radio" name="n3" id="i3"><label for="i3">1.5 GB</label>
+        </p>
+        <p>
+            <b>Wie oft nutzt du das Handy im ausland</b>
+            <br>
+            <input type="radio" name="n4" id="a1"><label for="a1">wenig</label>
+            <input type="radio" name="n4" id="a2"><label for="a2">normal</label>
+            <input type="radio" name="n4" id="a3"><label for="a3">viel</label>
+        </p>
+    </fieldset>
+    <fieldset>
+        <legend>Zubehör</legend>
+        <label for="hülle">Hülle</label>
+        <input type="checkbox" name="hülle" id="hülle">
+        <label for="Datenkabel">Datenkabel</label>
+        <input type="checkbox" name="datenkabel" id="datenkabel">
+        <label for="Ladegerät">Ladegerät</label>
+        <input type="checkbox" name="Ladegerät" id="Ladegerät">
+    </fieldset>
+
+    <fieldset>
+        <legend> Action </legend>
+        <input type="submit" value="Handy beantragen" name="save" id="save" />
+        <input type="reset" value="Daten löschen" name="reset" id="reset" />
+    </fieldset>
+
+
+</body>
+</html>
