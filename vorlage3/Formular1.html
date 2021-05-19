@@ -21,18 +21,20 @@
         <fieldset>
             <fieldset>
                 <legend>Bewertungen (1: trifft zu; 6: trifft nicht zu)</legend>
-                <input id="nett" type="number" min="1" max="6">
-                <label for="nett">Meine Lehrerin ist nett</label> <br> <br>
+                <p> <input id="nett" type="number" min="1" max="6">
+                    <label for="nett">Meine Lehrerin ist nett</label>
+                </p>
+
                 <input id="puenkt" type="number" min="1" max="6">
                 <label for="puenkt">Meine Lehrerin ist pünktlich</label> <br> <br>
-                <input id="ahnung" type="number" min="1" max="6">
+                <input id="ahnung" type="number" min="1" max="6" >
                 <label for="ahnung">Meine Lehrerin hat Ahnung</label> <br>
             </fieldset>
             <fieldset>
                 <legend>Action</legend>
-                <input id="save" type="button" value="Speichern">
-                <input id="delete" type="reset" value="Eingaben löschen">
-            </fieldset>
+                    <input id="save" type="button" value="Speichern">
+                    <input id="delete" type="reset" value="Eingaben löschen">
+                </fieldset>
         </fieldset>
 
     </form>
@@ -79,7 +81,7 @@
                     <input id="puenkt2" type="checkbox" min="1" max="6">
                     <label for="puenkt2">Meine Lehrerin ist pünktlich</label>
                 <br> <br>
-                    <input  type="checkbox" min="1" max="6" id="ahnung2">
+                    <input  disabled readonly   type="checkbox" min="1" max="6" id="ahnung2">
                     <label for="ahnung2">Meine Lehrerin hat Ahnung</label>
                 <br>
             </fieldset>
@@ -93,7 +95,7 @@
                 Mein Komentar Dazu <br>
 
 
-                <textarea name="Komentar" id="" cols="100" rows="5"></textarea>
+                <textarea name="Komentar" id="" cols="100" rows="5">bruh</textarea>
             </fieldset>
             <fieldset>
                 <legend>Action</legend>
@@ -104,7 +106,20 @@
 
     </form>
 
+    <br> <br>
+    <h1 >
+        Teilaufgabe "a"
+    </h1>
+    <form>
+        <label for="nachname">Nachname</label> <input  type="Nachname" id="nachname"> <br>
+        <label for="vorname">Vorname</label> <input type="Vorname" id="vorname"> <br>
+        <label for="jahr">geburtsjahr</label> <input type="date" name="" id="jahr"> <br>
+        <label for="PLZ">PLZ</label> <input type="number" min="10000" max="100000" id="PLZ"> <br>
+        <label for="wohnort">Wohnort</label> <input type="text" name="wohnort" id="wohnort"> <br>
+        <label for="mail">Mail</label> <input type="email" name="mail" id="mail"> <br>
+        <label for="Url">Url</label> <input type="url" name="url" id="url"> <br>
 
+    </form>
 
 </body>
 </html>
