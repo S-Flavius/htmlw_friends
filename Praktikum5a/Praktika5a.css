@@ -1,0 +1,71 @@
+*{
+    margin:0;
+    padding:0
+}
+.verlink{
+    color: red;
+    text-decoration: none
+}
+a.verlink:hover{
+    color: greenyellow
+}
+body{
+    height:100%;
+    font-family: Calibri;
+    background-color: darkgrey;
+}
+html{
+    height:100%
+}
+#kopf{
+    font-size: 36pt;
+    font-weight: bold
+}
+header {
+    height: 60px;
+    background-color: lightblue;
+    text-align: center
+}
+nav {
+    height: 30px;
+    background-color: lightgrey;
+    text-align: center;
+    color:red;
+    font-weight: bold
+}
+div.main {
+    height: 100%
+}
+footer {
+    height:50px;
+    background-color: lightgrey;
+    color: red;
+    text-align: left
+}
+h1, h2{
+    font-family: Comic Sans MS
+}
+img {
+    height: 35%;
+    float: left;
+    text-align: left;   
+    padding-right: 45px
+}
+#tabelle1,#tabelle2,#tabelle3{
+    font-size: larger
+}
+
+#fig1 {
+    height: 200%
+}
+.uber{
+    font-size:  18px;
+    color: blue;
+    font-family: Comic Sans MS;
+    font-weight: bold
+}
+
+#vorstellen{
+    font-size:24pt;
+    font-weight: bold
+}
